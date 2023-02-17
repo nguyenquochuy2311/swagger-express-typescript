@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "declaration": true,
+        "outDir": "./dist/swagger-express-typescript",
+        "baseUrl": "./",
+        "typeRoots": ["node_modules/@types"],
+        "paths": {}
+    },
+    "exclude": ["node_modules", "lib/swagger-express-typescript-lib/src/**/*.spec.ts"],
+    "include": ["lib/swagger-express-typescript-lib/src/**/*.ts"]
+}
